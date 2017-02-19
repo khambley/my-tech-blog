@@ -1,0 +1,33 @@
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/15/2017 3:59:22 PM
+Utils.Recycle() : Access to the path 'C:\inetpub\wwwroot\TECHBLOG\web.config' is denied.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/15/2017 4:32:41 PM
+Error editing profile: Object reference not set to an instance of an object.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/15/2017 4:53:09 PM
+Error editing profile: Object reference not set to an instance of an object.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 8:55:56 PM
+App_Code.Controls.Blogroll.ProcessRequest: Reference to undeclared entity 'nbsp'. Line 180, position 3543.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:25:12 PM
+Failed to decrypt the FormsAuthentication cookie.: Error occurred during a cryptographic operation.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:25:12 PM
+Failed to decrypt the FormsAuthentication cookie.: Error occurred during a cryptographic operation.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:25:12 PM
+Failed to decrypt the FormsAuthentication cookie.: Error occurred during a cryptographic operation.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:25:21 PM
+Failed to decrypt the FormsAuthentication cookie.: Error occurred during a cryptographic operation.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:33:17 PM
+Error editing profile: Object reference not set to an instance of an object.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:37:29 PM
+Failed to decrypt the FormsAuthentication cookie.: Error occurred during a cryptographic operation.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 2/18/2017 10:37:58 PM
+BlogReader.Import: BlogML could not load with 2.0 specs. There is an error in XML document (2, 2).

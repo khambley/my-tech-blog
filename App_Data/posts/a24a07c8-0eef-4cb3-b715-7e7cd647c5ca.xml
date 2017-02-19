@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>MVC 4 - Pt 2 : Routes and Controllers</title>
+  <description>So how does a URL like http://localhost/home/about&amp;nbsp;work without the .aspx file extension anyway</description>
+  <content>&lt;p&gt;So how does a URL like http://localhost/home/about&amp;nbsp;work without the .aspx file extension anyway?&lt;/p&gt;
+&lt;p&gt;Well, let me introduce you to the Global.asax.cs file in the root of your MVC application!&lt;/p&gt;
+&lt;p&gt;&lt;img src="/image.axd?picture=/2017-02-18 18_04_01-Globalfile.png" alt="" /&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Inside of that file, the Application references HttpApplication class and has a line in it that registers the Route Map...&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public class MvcApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+    }
+&lt;/pre&gt;
+&lt;p&gt;That line references another class in the App_Start folder called RouteConfig.cs&lt;/p&gt;
+&lt;p&gt;The RouteConfig.cs class contains the Route Map.&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public static void RegisterRoutes(RouteCollection routes)
+        {
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+        }&lt;/pre&gt;
+&lt;p&gt;Now, we can find out what those values are at any time inside the HomeController by creating an instance of the RouteData object in one of the action methods, for example, in the Index() method.&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public ActionResult Index()
+        {
+            var controller = RouteData.Values["controller"];
+            var action = RouteData.Values["action"];
+            var id = RouteData.Values["id"];
+
+            var message = String.Format("{0}::{1} {2}", controller, action, id);
+
+            ViewBag.Message = message;
+            return View();
+        }&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2014-11-08 00:01:00</pubDate>
+  <lastModified>2017-02-19 02:02:30</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>mvc-4-routes-and-controllers</slug>
+  <tags />
+  <comments />
+  <categories>
+    <category>9f3ef88f-26d7-4c9a-825b-5696cf83f6ab</category>
+  </categories>
+  <notifications />
+</post>

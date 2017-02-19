@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>MVC 4 - Pt 1 : Models Views Controllers, Oh My! A quick intro to MVC...</title>
+  <description>So I've begun to explore the world of .NET MVC (Models, Views, and Controllers). I've been taking a </description>
+  <content>&lt;p&gt;So I've begun to explore the world of .NET MVC (Models, Views, and Controllers). I've been taking a course on PluralSight called &lt;a href="https://app.pluralsight.com/library/courses/mvc4-building/description" target="_blank"&gt;Building ASP.NET MVC 4 Web Applications&lt;/a&gt; by Scott Allen. I know a lot of people, especially Microsoftians like me, who fear&amp;nbsp;change, have been wondering what all the hubbub is about regarding this MVC vs. Web Forms thing. Well, I do understand now why MVC is a much better and more extensible design pattern. Let me dispel some of the myths right now!&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Do I need to learn a completely new programming language in order to use MVC? NO!&lt;br /&gt;MVC is built on the tried, true and proven ASP.NET runtime. One of the most popular approaches to building MVC applications is creating strongly typed models, basically created an object and declaring an instance of that object in an Action method. Now, how many times have us .Netters created a class in C#? About a gazillion, right? So, it's using our existing knowledge and skills and applying to this new design pattern. Pretty cool, huh? Example:&lt;/p&gt;
+&lt;p&gt;So, in our newly created ASP.NET MVC 4 Web Application project in Visual Studio, we:&lt;/p&gt;
+&lt;p&gt;1. right-click on the Models folder.&lt;/p&gt;
+&lt;p&gt;2. Add a new class, call it something like AboutModel. Add &amp;gt; Class &amp;gt; AboutModel.cs&lt;/p&gt;
+&lt;p&gt;3. Add 2 properties in the class. Note - use a code snippet "prop" and then hit Tab twice to have VS fill in the property line.&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public class AboutModel
+    {
+        public string Name { get; set; }
+        public string Location { get; set; }
+    }
+&lt;/pre&gt;
+&lt;p&gt;4. Go to HomeController. This is the default controller where the default route is defined. All other controllers fall under the HomeController. Declare a new instance of AboutModel as follows... &lt;span style="text-decoration: underline;"&gt;Note - AboutModel is in a different namespace than Controllers so you need to type out the entire class name or add a using statement.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;5. Add data to the model object and pass model object instance to the View and return it! Voila!...but wait, we need to tell the View to render the model object instance.&lt;/p&gt;
+&lt;p&gt;Here is how the code looks in the HomeController About() method...&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public ActionResult About()
+        {
+            var model = new AboutModel();
+            model.Name = "Katherine Hambley";
+            model.Location = "Wisconsin, USA";
+
+            return View(model);
+        }&lt;/pre&gt;
+&lt;p&gt;6. Open the About.cshtml file in the Views/Home folder. In About.cshtml, first step is to tell the View about this model, add a directive at the top of the About.cshtml. Then, add your object access statements, @Model.Name and @Model.Location where you want them to appear on the page.&amp;nbsp;&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;@model OdeToFood2.Models.AboutModel
+@{
+    ViewBag.Title = "About";
+}
+&amp;lt;h2&amp;gt;@ViewBag.Title.&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;@Model.Name&amp;lt;/h3&amp;gt;
+
+&amp;lt;div&amp;gt;
+    Location: @Model.Location
+&amp;lt;/div&amp;gt;&lt;/pre&gt;
+&lt;p&gt;Then, do another build and a refresh of the browser page, and the page is built using a strongly typed model. See screenshot below.&lt;img src="/image.axd?picture=/2017-02-18 16_46_22-ASPNET_MVC1.png" alt="" width="601" height="375" /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2014-11-07 20:32:00</pubDate>
+  <lastModified>2017-02-19 02:03:03</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>models-views-controllers-oh-my-a-quick-intro-to-mvc</slug>
+  <tags />
+  <comments />
+  <categories>
+    <category>9f3ef88f-26d7-4c9a-825b-5696cf83f6ab</category>
+  </categories>
+  <notifications />
+</post>

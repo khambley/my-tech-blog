@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>What is Perfection anyway?</title>
+  <description>I just read a really good article called, "Business Intelligence Definition and Solutions", explaini</description>
+  <content>&lt;p&gt;I just read a really good article called, "&lt;a title="Business Intelligence Definition and Solutions" href="http://www.cio.com/article/2439504/business-intelligence/business-intelligence-definition-and-solutions.html?page=2" target="_blank"&gt;Business Intelligence Definition and Solutions&lt;/a&gt;", &amp;nbsp;explaining what business intelligence (BI) is and how to implement a BI system in a company. Focusing on the heading "How should I implement a BI system?" It lists some bullet points of steps to rolling out BI systems. &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;#3 hit me like a mac truck:&lt;br /&gt;&lt;/strong&gt;&lt;br /&gt;"3. Deploy quickly, then adjust as you go. Don't spend a huge amount of time up front developing the "perfect" reports because needs will evolve as the business evolves. Deliver reports that provide the most value quickly, and then tweak them."&lt;br /&gt;&lt;br /&gt;I've recently worked on a project where they wanted everything "perfect" before going live with the new system. Really? Define perfect. Find me a data system that is "perfect". What does that even mean? I believe this is a case and point of not seeing the big picture, and the more time you waste "splitting hairs" about having every detail in place, the less valuable your data system becomes until it is rendered utterly useless. The statement above confirmed I was right all along, and the agile way of data systems development is now the rule, instead of the exception.&lt;br /&gt;&lt;br /&gt;A good example is the development of &lt;a title="Minecraft" href="https://minecraft.net/" target="_blank"&gt;Minecraft&lt;/a&gt; when the creator, "Notch" first released the "beta" version to the public, he said up front, "This is by no means done, and hence a work in progress. I make no claims to the playability of the game." He really never said the game was officially "done" until he sold the company and the game to Microsoft for $2.5 billion dollars. Yep, that's billion with a B! So, his game wasn't "perfect" but he must have done something right!&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2015-05-02 04:11:00</pubDate>
+  <lastModified>2017-02-16 04:32:09</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>what-is-perfection-anyway</slug>
+  <tags>
+    <tag>business intelligence</tag>
+    <tag>minecraft</tag>
+    <tag>perfection</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>7e441eb5-74ac-48da-a066-e7a382c01ee9</category>
+    <category>8829a074-1c04-4df8-a309-5e1777ea7713</category>
+  </categories>
+  <notifications />
+</post>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<categories>
+    <category id="9f3ef88f-26d7-4c9a-825b-5696cf83f6ab" description="" parent="">ASP.NET MVC</category>
+    <category id="c223353c-1aef-4a46-afd1-cb61ab1a792d" description="" parent="">Blog</category>
+    <category id="19770e74-9ec9-4cde-b2ab-e5051aaaf348" description="Posts about my adventures with BlogEngine.NET" parent="">BlogEngine.NET</category>
+    <category id="7e441eb5-74ac-48da-a066-e7a382c01ee9" description="" parent="">Business Intelligence</category>
+    <category id="8829a074-1c04-4df8-a309-5e1777ea7713" description="" parent="">Minecraft</category>
+</categories>
