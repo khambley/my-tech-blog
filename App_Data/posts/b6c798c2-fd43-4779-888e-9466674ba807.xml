@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>EPiServer First Steps...Pt2 Creating a new EPiServer Project</title>
+  <description>In the first part,&amp;nbsp;</description>
+  <content>&lt;p&gt;In the first part of &lt;a href="/post/2015/04/19/episerver-general-concepts" target="_blank"&gt;EPiServer First Steps&lt;/a&gt;, we discussed how to download a free version of Visual Studio and download and install the EPiServer VS extensions to set up your development environment, wasn't that easy?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;So, now we are going to create our first project. Everything you need is at &lt;a href="http://world.episerver.com" target="_blank"&gt;world.episerver.com&lt;/a&gt;, but we will do a little summary here.&lt;/p&gt;
+&lt;p&gt;1. In VS, go to&amp;nbsp;&lt;/p&gt;</content>
+  <ispublished>False</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2015-04-19 23:49:00</pubDate>
+  <lastModified>2017-02-20 17:38:08</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>episerver-first-steps-pt2</slug>
+  <tags />
+  <comments />
+  <categories />
+  <notifications />
+</post>

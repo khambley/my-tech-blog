@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <categories>
-    <category id="9f3ef88f-26d7-4c9a-825b-5696cf83f6ab" description="" parent="">ASP.NET MVC</category>
+    <category id="9cbe50d7-96f3-49e5-80d1-929351cd52cb" description="" parent="">ASP.NET MVC</category>
     <category id="c223353c-1aef-4a46-afd1-cb61ab1a792d" description="" parent="">Blog</category>
     <category id="19770e74-9ec9-4cde-b2ab-e5051aaaf348" description="Posts about my adventures with BlogEngine.NET" parent="">BlogEngine.NET</category>
-    <category id="7e441eb5-74ac-48da-a066-e7a382c01ee9" description="" parent="">Business Intelligence</category>
-    <category id="8829a074-1c04-4df8-a309-5e1777ea7713" description="" parent="">Minecraft</category>
+    <category id="7b225b99-86df-4047-8d7c-7eb8e9472574" description="PluralSight Course" parent="">Building ASP.NET MVC 4 Web Applications</category>
+    <category id="a84984d7-2ded-4b4b-91d8-3d4ed4d1897a" description="" parent="">C#</category>
+    <category id="858a69b4-4c4a-4492-bde5-694b195678b4" description="" parent="">Certifications</category>
+    <category id="be7554a8-04ff-4a41-ab91-971d1f8820ac" description="" parent="">EPiServer</category>
+    <category id="fcf2f993-008c-400b-8b68-34d69400caba" description="" parent="">ERD</category>
+    <category id="5496c0b1-33a9-4e93-a1d2-bf631c007a39" description="" parent="">Facebook</category>
+    <category id="bbb5ded2-c433-436c-b2d1-52a955d61bb4" description="" parent="">Minecraft</category>
+    <category id="683d04f3-fd8c-4088-85ff-acf3d772f165" description="" parent="">Personality Test</category>
+    <category id="2c981cf5-b5a1-4cef-bf72-c4725617e10c" description="" parent="">Razor</category>
+    <category id="80ed907d-718f-48f0-af1c-c97201e37efb" description="" parent="">SCRUM</category>
+    <category id="46e46eed-20ea-4d34-b4ae-cb158098b2fb" description="" parent="">SiteCore</category>
 </categories>

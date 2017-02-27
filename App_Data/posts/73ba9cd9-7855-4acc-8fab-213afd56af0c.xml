@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>SiteCore Technical Interview Questions</title>
+  <description>How many databases are in SiteCore?Master - authoring databaseCore - all of SiteCore's settingsWeb -</description>
+  <content>&lt;p&gt;I was asked these questions in a technical interview (tech check) for a SiteCore developer position. I thought I would jot them down for future reference. Maybe they will help someone else! :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. How many databases are in SiteCore?&lt;/strong&gt;&lt;br /&gt;Master - authoring database&lt;br /&gt;Core - all of SiteCore's settings&lt;br /&gt;Web - only the latest published version of content driving the web site.&lt;br /&gt;&lt;a href="http://stackoverflow.com/questions/13342755/what-is-the-difference-between-sitecores-core-master-and-web-databases"&gt;http://stackoverflow.com/questions/13342755/what-is-the-difference-between-sitecores-core-master-and-web-databases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. What is SiteCore? What framework is it based on?&lt;/strong&gt;&lt;br /&gt;SiteCore is an enterprise level web content management system (CMS) based on the .NET (Microsoft) framework and C#. &lt;a href="http://www.sitecore.com" target="_blank"&gt;www.sitecore.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3. What is a strongly-typed language? Why is C# considered a strongly-typed language?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. (C#) What is the difference between a reference type&amp;nbsp;and a value type?&lt;/strong&gt;&lt;br /&gt;Technically, this is a C# question but it is definitely a relevant SiteCore question since most of the logic in SiteCore is programmed in C#. This is one of the main differences from Java or VB languages, C# provides two types, a class and a struct. A &lt;strong&gt;struct&lt;/strong&gt; is a &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;value&lt;/strong&gt;&lt;/span&gt; type. A &lt;strong&gt;class&lt;/strong&gt; is a &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;reference&lt;/strong&gt;&lt;/span&gt; type. One difference is how memory is allocated. When a value type instance is created, a single space in memory is allocated to store the value. Primitive types such as &lt;strong&gt;&lt;span style="color: #ff0000;"&gt;int, float, bool, and char&lt;/span&gt;&lt;/strong&gt; are also value types. When the runtime encounters a value type, it accesses its data directly. This is very efficient and effective use of memory.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;With reference types, an object is created in memory, a placeholder, if you will, that allocates an empty space in memory and reserves it for the object's data. When an instance is created of that object and stored in a reference variable, it can be referenced by all the methods available to the class, depending on if it's public or private method. So functions and methods can change the data in a reference variable, whereas a value has to be returned to the value variable in order to be changed.&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;int AddTen(int number)  // parameter is passed by value
+{
+    return number + 10;
+}&lt;/pre&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;void AddTen(ref int number)  // parameter is passed by reference
+{
+    number += 10;
+}&lt;/pre&gt;
+&lt;p&gt;See also,&amp;nbsp;&lt;a href="https://msdn.microsoft.com/en-us/library/4d43ts61%28v=vs.90%29.aspx?f=255&amp;amp;MSPPError=-2147217396" target="_blank"&gt;Value and Reference Types&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;5. What is A/B testing in terms of web development?&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2016-03-03 20:41:00</pubDate>
+  <lastModified>2017-02-20 18:53:04</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>sitecore-cheat-sheet</slug>
+  <tags>
+    <tag>C#</tag>
+    <tag>SiteCore</tag>
+    <tag>.Net</tag>
+    <tag>CMS</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>a84984d7-2ded-4b4b-91d8-3d4ed4d1897a</category>
+    <category>46e46eed-20ea-4d34-b4ae-cb158098b2fb</category>
+  </categories>
+  <notifications />
+</post>

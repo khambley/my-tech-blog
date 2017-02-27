@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widgets>
-  <widget id="46e2d565-1b54-412b-b2c5-59699333e093" title="PageList" showTitle="True">PageList</widget>
-  <widget id="c99aa850-3696-4fdb-8a9d-804408980761" title="LinkList" showTitle="True">LinkList</widget>
+  <widget id="e53c0e19-c61b-4f6e-aa90-09da817488bc" title="Administration" showTitle="True">Administration</widget>
+  <widget id="52b0f6a5-792e-462f-9b5b-15a8314ff869" title="TextBox" showTitle="True">TextBox</widget>
+  <widget id="38a38a18-4a6f-4d8b-932e-0069caef0d5b" title="PageList" showTitle="True">PageList</widget>
+  <widget id="21108331-e283-4807-a4f6-f1db31163608" title="Category List" showTitle="True">CategoryList</widget>
+  <widget id="a305a372-ba9f-49b3-ac49-1453faa3efc0" title="Search" showTitle="True">Search</widget>
+  <widget id="bc0cde39-6143-4da4-8ee8-c8c4e676ff2f" title="BlogRoll" showTitle="True">BlogRoll</widget>
+  <widget id="5bf32012-4aa3-4031-8346-4d36f0fda6d9" title="Post List" showTitle="True">PostList</widget>
 </widgets>

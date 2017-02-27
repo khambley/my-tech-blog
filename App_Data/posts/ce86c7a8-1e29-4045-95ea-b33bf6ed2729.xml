@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>EPiServer v6 vs. v7 - What are the differences?</title>
+  <description>The main difference is EPiServer 6 is web forms only, and I believe you have a choice between web fo</description>
+  <content>&lt;p&gt;The main difference is EPiServer 6 is web forms only, and I believe you have a choice between web forms or MVC with 7.&lt;/p&gt;
+&lt;p&gt;EPiServer 7 supports regular updates, nuget and Visual Studio integration and a more modern editorial interface.&lt;/p&gt;
+&lt;p&gt;In my opinion, EPiServer 6 is still a stable platform and useful for those running older software or legacy systems. All versions are built on the ASP.NET framework which has proven itself as a stable, secure platform for many years.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.episerver.com"&gt;www.episerver.com&lt;/a&gt;&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2015-04-18 16:41:00</pubDate>
+  <lastModified>2017-02-20 17:42:12</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>episerver-v6-vs-v7-what-are-the-differences</slug>
+  <tags />
+  <comments />
+  <categories>
+    <category>be7554a8-04ff-4a41-ab91-971d1f8820ac</category>
+  </categories>
+  <notifications />
+</post>

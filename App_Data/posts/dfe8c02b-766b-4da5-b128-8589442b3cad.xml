@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>MVC 4 - Pt 3 : Playing with Actions and Controllers</title>
+  <description>So we learned in the previous post that we can set up different routes in the RouteConfig.cs file, l</description>
+  <content>&lt;p&gt;So we learned in the previous post that we can set up different routes in the RouteConfig.cs file, like so:&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public static void RegisterRoutes(RouteCollection routes)
+        {
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            // /Cuisine/french
+            routes.MapRoute("Cuisine",
+                "cuisine/{name}",
+                new { controller = "Cuisine", action = "Search", name = UrlParameter.Optional });
+
+            routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+        }&lt;/pre&gt;
+&lt;p&gt;now lets add another route and call it "cuisine" with an action of "Search". We need to add this route above the default route because the engine checks the code in sequence, if it finds /home first (which it pretty much always does) it won't recognize our newly added route to "cuisine". So let's add our Route Map for cuisine above the default Route Map.&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public static void RegisterRoutes(RouteCollection routes)
+        {
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            // /Cuisine/french
+            routes.MapRoute("Cuisine",
+                "cuisine/{name}",
+                new { controller = "Cuisine", action = "Search", name = UrlParameter.Optional });
+
+            routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+        }&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Now, save and run your application, you will end up at the home page. Type cuisine/swedish after localhost like so, http://localhost:56470/cuisine/swedish. Then hit return. You'll get a 404 error, File Not Found. That's because we haven't created a cuisine controller or a search action for the routing engine to find. Let's do that now.&lt;/p&gt;
+&lt;p&gt;Right click on the Controllers folder and click Add &amp;gt;&amp;nbsp;Controller. Add an empty MVC controller and call it CuisineController. Then, change the name of the Index action method to Search(), like this:&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public class CuisineController : Controller
+    {
+        // GET: Cuisine
+        public ActionResult Search(string name)
+
+        {
+            var message = Server.HtmlEncode(name);
+            return Content(message);
+        }
+    }&lt;/pre&gt;
+&lt;p&gt;Then, return Content and any string. This will prove to us that the routing engine is getting to the controller and performing the Search action method. Save and run your application then type the above URL into the browser. You should see your string displayed in the upper left corner of the browser. We did it! We created our cuisine controller! Fun, huh? Just like magic!&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;You can even add a query string parameter and the MVC framework will find it, such as&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;http://localhost:50688/cuisine?name=french&lt;/p&gt;
+&lt;p&gt;and it will spit out "french" in the browser window.&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2014-11-09 20:06:00</pubDate>
+  <lastModified>2017-02-19 20:12:57</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>mvc-4-pt-3-playing-with-actions-and-controllers</slug>
+  <tags />
+  <comments />
+  <categories>
+    <category>9cbe50d7-96f3-49e5-80d1-929351cd52cb</category>
+  </categories>
+  <notifications />
+</post>

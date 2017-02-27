@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>EPiServer 6 vs. 7 - What's the difference?</title>
+  <description>The main difference is EPiServer 6 is web forms only, and I believe you have a choice between web fo</description>
+  <content />
+  <keywords />
+  <slug>episerver-6-vs-7-what-s-the-difference</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>False</ispublished>
+  <isdeleted>True</isdeleted>
+  <sortorder>0</sortorder>
+  <datecreated>2015-04-17 19:57:00</datecreated>
+  <datemodified>2017-02-20 17:41:03</datemodified>
+</page>

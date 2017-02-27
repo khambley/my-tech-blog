@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>EPiServer First Steps...Pt1</title>
+  <description>So, I've worked with several CMSs (Content Management Systems) over the years, and EPiServer is one </description>
+  <content>&lt;p&gt;So, I've worked with several CMSs (Content Management Systems) over the years, and EPiServer is one of my favorites. EPiServer is enterprise level web site creation and editing system built on the Microsoft technology stack (ASP.NET, SQL Server, Windows Server, C#). For a non-technical person, it is one of the best CMSs for content authors and editors, people who are not technical people, like marketing or HR, to write and publish web content without knowing how to program or create mark-up.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;As a developer, there are some key concepts to know in order to be the most efficient in creating and modifying EPiServer websites. The EPiServer developer site, &lt;a href="http://world.episerver.com/documentation/getting-started/cms/" target="_blank"&gt;EPiServer World&lt;/a&gt;, has a wealth of information on getting started and makes their documentation readily available to developers.&lt;/p&gt;
+&lt;p&gt;Hands down, this is the single biggest reason EPiServer is one of my favorite CMSs. After dealing with SiteCore and how impossibly difficult it is to get a demo license and documentation, not to mention, help or support, I'll gladly take EPiServer any day, and twice on Sunday! But I digress...&lt;/p&gt;
+&lt;p&gt;These are the first steps a developer needs to follow in order to get started, don't worry, it's very easy. It's very similar to setting up other CMSs you've set up before, however EPiServer makes it even easier by having developers download and install Visual Studio Extensions, so everything is built right into VS when you start. Pretty cool! Anything to make our lives easier, huh?&lt;/p&gt;
+&lt;p&gt;1. Set up your development environment. So everything you need is pretty much outlined &lt;a href="http://world.episerver.com/documentation/getting-started/cms/1--setting-up-your-development-environment/" target="_blank"&gt;here&lt;/a&gt;, including helpful screenshots, but to sum it up:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You need some type of Visual Studio, the Community 2015 edition works out just fine for me for development purposes, you can download it &lt;a href="https://www.visualstudio.com/free-developer-offers/" target="_blank"&gt;here&lt;/a&gt; for free!&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Then, once installed, (which will take an eternity, btw), go to &lt;strong&gt;Tools &amp;gt; Extensions and Updates&lt;/strong&gt;...&lt;/li&gt;
+&lt;li&gt;Then, click Online, and search for "episerver", click EPiServer Visual Studio Extensions to download and install&lt;/li&gt;
+&lt;li&gt;Once installed, you will need to restart Visual Studio. Then, you'll be ready to create your first EPiServer project in VS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Follow along with Part 2...&lt;a href="/post/2017/02/19/episerver-first-steps-pt2" target="_blank"&gt;Creating a New EPiServer Project&lt;/a&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2015-04-19 23:09:00</pubDate>
+  <lastModified>2017-02-20 01:23:26</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>episerver-general-concepts</slug>
+  <tags>
+    <tag>EPiServer</tag>
+    <tag>CMS</tag>
+    <tag>ASP.NET</tag>
+    <tag>SQL Server</tag>
+    <tag>Windows Server</tag>
+    <tag>C#</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>be7554a8-04ff-4a41-ab91-971d1f8820ac</category>
+  </categories>
+  <notifications />
+</post>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>Building Applications with ASP.NET MVC 4 Course</title>
+  <description>Building Applications with ASP.NET MVC 4&amp;nbsp;- PluralSight Course
+
+
+
+Module
+Duration
+Completion Dat</description>
+  <content>&lt;p&gt;&lt;a href="http://pluralsight.com/training/courses/TableOfContents/mvc4-building"&gt;Building Applications with ASP.NET MVC 4&lt;/a&gt;&amp;nbsp;- PluralSight Course&lt;/p&gt;
+&lt;table style="height: 239px;" width="495"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Module&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Duration&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Completion Date&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Notes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Course Overview&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;1m 26s&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;2/21/2017&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Introduction to ASP.NET MVC 4&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;36m 37s&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;2/21/2017&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Controllers in ASP.NET MVC 4&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;41m 13s&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;2/24/2017&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;Razor Views&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;52m 54s&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&amp;nbsp;In Progress&lt;/td&gt;
+&lt;td style="border: 1px solid black; padding: 5px;"&gt;&lt;a href="/post/2017/02/24/razor-views" target="_blank"&gt;Notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content>
+  <keywords />
+  <slug>building-applications-with-asp-net-mvc-4-course</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <sortorder>0</sortorder>
+  <datecreated>2017-02-25 02:29:00</datecreated>
+  <datemodified>2017-02-25 04:07:07</datemodified>
+</page>

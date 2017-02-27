@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>Facebook removing Likebox on 6/23/2015</title>
+  <description>Facebook announced a couple weeks ago that they are removing the old embeddable Likebox from their A</description>
+  <content>&lt;p&gt;Facebook announced a couple weeks ago that they are removing the old embeddable Likebox from their API. This means that Likeboxes on websites that have the old API code embedded in their site will no longer work after June 23, 2015. Facebook has offered somewhat of an alternative, the &lt;a href="https://developers.facebook.com/docs/plugins/page-plugin" target="_blank"&gt;Page Plugin&lt;/a&gt;.&amp;nbsp;However, you will have to use the newest API code and remove the old code in order for it to work.&lt;/p&gt;
+&lt;p&gt;I experimented with the plugin and it does not allow embedding individual news feeds like the old Likebox did; it only works with Pages. Kind of a bummer, I like having my news feed displayed on my website, almost like a "mini-blog." Perhaps their is another way, I'll have to investigate further.&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2015-04-30 19:25:00</pubDate>
+  <lastModified>2017-02-19 20:28:01</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>facebook-removing-likebox-on-june-23-2015</slug>
+  <tags>
+    <tag>facebook</tag>
+    <tag>likebox</tag>
+    <tag>page plugin</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>5496c0b1-33a9-4e93-a1d2-bf631c007a39</category>
+  </categories>
+  <notifications />
+</post>

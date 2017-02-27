@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>khambley</author>
+  <title>What is an Entity Relationship Diagram (ERD)?</title>
+  <description>An ERD is a high-level overview of the design of a database management system. An ERD is widely used</description>
+  <content>&lt;p&gt;An ERD is a high-level overview of the design of a database management system. An ERD is widely used by business analysts when making a business case to explain the justification for implementing a particular database management system. This is done to improve&amp;nbsp;business intelligence&amp;nbsp;within the company.&lt;/p&gt;
+&lt;p&gt;An ERD typically includes a diagram of the Entities, Attributes, and the Relationships between them. A popular tool for creating the diagram is Microsoft Visio. Visio includes data notation tools and connectors to make creating entities and relationships easy. I prefer Visio 2010 versus 2013. I guess I'm just used to it.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;You simply drag and drop the tool onto the drawing board and type in the name, attributes and what type of relationship it is (1:1, 1:M, M:M) and Visio does the rest.&lt;/p&gt;
+&lt;p&gt;I was tasked with the assignment in my grad school class to create a simple ERD for a company that sells widgets online and needs to implement a database management system to help improve their data collection and analysis. So, my solution and explanation will be in a future post.&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2015-04-16 19:30:00</pubDate>
+  <lastModified>2017-02-19 20:32:58</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>what-is-an-entity-relationship-diagram-erd</slug>
+  <tags>
+    <tag>ERD</tag>
+    <tag>database</tag>
+    <tag>data</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>fcf2f993-008c-400b-8b68-34d69400caba</category>
+  </categories>
+  <notifications />
+</post>

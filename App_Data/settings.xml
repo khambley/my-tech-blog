@@ -14,7 +14,7 @@
   <culture>Auto</culture>
   <compresswebresource>False</compresswebresource>
   <searchcommentlabeltext>Include comments in search</searchcommentlabeltext>
-  <timestamppostlinks>False</timestamppostlinks>
+  <timestamppostlinks>True</timestamppostlinks>
   <emailsubjectprefix>Weblog</emailsubjectprefix>
   <enablewebsiteincomments>False</enablewebsiteincomments>
   <selfregistrationinitialrole>Editors</selfregistrationinitialrole>
@@ -23,10 +23,10 @@
   <postsperfeed>3</postsperfeed>
   <useblognameinpagetitles>True</useblognameinpagetitles>
   <enabletrackbacksend>True</enabletrackbacksend>
-  <descriptioncharacters>300</descriptioncharacters>
+  <descriptioncharacters>400</descriptioncharacters>
   <postoptionsdescription>True</postoptionsdescription>
   <pageoptionscustomfields>False</pageoptionscustomfields>
-  <customfrontpage />
+  <customfrontpage>FrontPage.aspx</customfrontpage>
   <smtpusername>username</smtpusername>
   <alternatefeedurl />
   <contacterrormessage>&lt;p&gt;This form does not work at the moment. Sorry for the inconvenience.&lt;/p&gt;</contacterrormessage>
@@ -68,7 +68,7 @@
   <enableopensearch>True</enableopensearch>
   <pageoptionsslug>False</pageoptionsslug>
   <syndicationformat>Rss</syndicationformat>
-  <description>Random thoughts of Katherine Hambley on technology and Web development</description>
+  <description>Random thoughts of Katherine Hambley on technology and .NET development</description>
   <dayscommentsareenabled>0</dayscommentsareenabled>
   <enablerelatedposts>True</enablerelatedposts>
   <authorname>My name</authorname>
@@ -91,7 +91,7 @@
   <smtpserverport>25</smtpserverport>
   <searchdefaulttext>Enter search term or APML url</searchdefaulttext>
   <smtpserver>mail.example.com</smtpserver>
-  <name>Katherine's Tech Blog</name>
+  <name>Katherine Hambley's&lt;br /&gt; Tech Blog</name>
   <geocodinglatitude>0</geocodinglatitude>
   <handlewwwsubdomain />
   <disquswebsitename />

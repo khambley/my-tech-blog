@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>Home</title>
+  <description>This is the home page.</description>
+  <content>&lt;p&gt;This is the home page.&lt;/p&gt;</content>
+  <keywords />
+  <slug>home</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <sortorder>0</sortorder>
+  <datecreated>2017-02-20 21:09:00</datecreated>
+  <datemodified>2017-02-20 21:10:03</datemodified>
+</page>
